@@ -1,0 +1,73 @@
+
+.food-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* gap: 30px; */
+    padding: 16px;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+
+.food-menu{
+    position: relative;
+    height: 35vh;
+    width: 30vw;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.food-menu h3{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.284);
+}
+
+.food-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* border: 2px solid red; */
+    /* margin: 30px; */
+    /* padding-left: 30px; */
+    padding: 35px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+  
+.food-item {
+    flex: 1 1 calc(33% - 32px);
+    max-width: calc(33% - 32px);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+.food-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+#veg{
+    background-image: url('/veg.jpg');
+  }
+
+#nonveg{
+    background-image: url('/nonveg.png');
+  }
+
+#chinese{
+    background-image: url('/chinese.jpg');
+  }

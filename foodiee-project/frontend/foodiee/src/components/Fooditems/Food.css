@@ -1,0 +1,109 @@
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 16px;
+    max-width: 300px;
+    background-color: #fff;
+  }
+  
+  .food-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .food-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .food-content {
+    padding: 16px;
+  }
+  
+  .food-title-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .rating {
+    color: #f39c12;
+  }
+  
+  .desc {
+    font-size: 14px;
+    color: #666;
+    margin: 8px 0;
+  }
+  
+  .food-price-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .add{
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #28a745;
+  }
+
+  .add:hover{
+    background-color: #218838;
+  }
+  
+  .add-button , .rem-button{
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .add-button{
+    background-color: #28a745;
+  }
+  
+  .add-rem-buttons {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .add-rem-buttons p{
+    font-size: medium;
+  }
+
+  .add-button:hover {
+    background-color: #218838;
+  }
+
+  .rem-button{
+    background-color: rgb(251, 19, 19);
+  }
+  
+  .rem-button:hover{
+    background-color: rgb(205, 5, 5);
+  }

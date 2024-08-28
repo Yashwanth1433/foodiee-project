@@ -1,0 +1,37 @@
+.payment-container{
+    position: relative;
+    width: 50vw;
+    height: 90vh;
+    /* background-color: rgba(198, 198, 198, 0.233); */
+    background-image: url("https://cdn.pixabay.com/photo/2021/03/19/13/15/bill-6107551_1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12vh;
+}
+
+.payment-gateway{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.232);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pay-button{
+    width: 100%;
+    border: none;
+    font-size: larger;
+    font-weight: 500;
+    background-color: rgba(49, 129, 233, 0.804);
+    color: rgb(206, 224, 250);
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+.pay-button:hover{
+    background-color: rgb(49, 128, 233);
+    color: white;
+}

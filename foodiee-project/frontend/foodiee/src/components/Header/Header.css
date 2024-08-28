@@ -1,0 +1,25 @@
+.header-container{
+    height: 40vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10vh;
+}
+
+.tagline{
+    position: absolute;
+    width: 45%;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    background-color: rgba(36, 36, 33, 0.188);
+}
+
+.tagline h5{
+    font-style: italic;
+}

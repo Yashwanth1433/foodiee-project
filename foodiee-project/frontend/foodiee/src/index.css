@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(142, 141, 141, 0.526);
+  border-radius: 0.625rem;
+}
+
+.box h2 {
+  margin: 0 0 1.875rem;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.box .inputBox {
+  position: relative;
+}
+
+.box .inputbox input {
+  width: 100%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.065rem solid #fff;
+  outline: none;
+  background: transparent;
+  font-size: larger;
+}
+
+.box .inputbox input::placeholder{
+  color: #c4c7c9;
+}
+
+.sign-buttons{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 50px;
+}
+
+.signin{
+  background-color: rgba(246, 246, 246, 0);
+  color: #dedede;
+  border: 2px solid rgb(178, 177, 177);
+  border-radius: 5px;
+  padding: 6px;
+  font-weight: 500;
+  transition: 150ms ease-in-out;
+}
+
+.signin:hover{
+  background-color: #dedede;
+  border: 2px solid rgba(128, 128, 128, 0);
+  color: rgb(15, 15, 15);
+  
+}
+
+.signin:active{
+  transform: translate(5px,5px);
+}
+
+.login .register{
+  color: #e6e7e7;
+}
+
+.box .inputbox input::placeholder{
+  color: rgb(255, 255, 255);
+}
+
+.signup {
+  /* margin: auto; */
+  /* align-self: center; */
+  background-color: #282828;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.signup:hover{
+  background-color: #dedede;
+  font-weight: 700;
+  color: #000000;
+}
+
+.box p{
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+}
+
+.register-buttons{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.banner{
+  width: 100%;
+  height: 40vh;
+  background-color: aqua;
+}

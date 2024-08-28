@@ -1,0 +1,28 @@
+.nav-bar{
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(174, 238, 84);
+    z-index: 5;
+    top: 0;
+}
+
+.logo{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.nav-right{
+    display: flex;
+    gap: 20px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.nav-right > *{
+    cursor: pointer;
+}
+

@@ -1,0 +1,9 @@
+.footer{
+    background-color: rgb(40, 36, 36);
+    width: 100vw;
+    height: 10vh;
+    color: rgb(232, 226, 226);
+    text-align: center;
+    justify-items: center;
+}
+
